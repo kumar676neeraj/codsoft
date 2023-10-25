@@ -1,0 +1,376 @@
+header{
+    position: fixed;
+    width: 100%;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #333; /* Change this to your desired navbar background color */
+    color: #fff; /* Change this to your desired text color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+   
+  
+}
+.why{
+font-size: xxx-large;
+text-align: center;
+font-weight: 500;
+}
+/* Style the logo */
+.logo img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px; /* Adjust the spacing between links as needed */
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.background {
+    background-image: url('downImage.jpg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+   
+}
+.content{
+margin: auto;
+border: 2px solid transparent;    
+    
+
+}
+h1{
+    color: #fff;
+}
+
+
+.paragraph{
+   text-align: center;
+    font-size: 30px;
+    
+    
+    padding: 10px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+h3{
+    text-align: center;
+}
+.p2{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+.section {
+    width: 33.33%;
+    margin: 30px 0;
+ }
+ .abc{
+    color: black;
+    font-size: 25px;
+ }
+.footer{
+    border: 2px solid red;
+     
+}
+.section-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create a responsive grid with a minimum column width of 300px */
+    gap: 20px; /* Adjust the gap between sections as needed */
+    padding: 20px;
+}
+.container-boosters{
+    background-color: black;
+    height: 200px;
+
+}
+.zz{
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+    
+    margin-top: 15px;
+}
+
+
+
+  .column  {
+   margin: 20px;
+  height: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    color: white;
+
+  }
+.devider-3{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mn-container{
+    justify-content: space-between;
+    display: flex;
+}
+.mn-container-2{
+    justify-content: space-between;
+    display: flex;
+}
+.mid-section{
+    height: 400px;
+    width: 100%;
+  
+    background-color: rgb(255, 208, 53);
+    display: flex;
+    justify-content: space-between ;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    content: normal;
+    border: 1px solid black;
+    height: 350px;
+    margin-left: 150px;
+    width: 25%;
+
+}
+.box-2{
+    text-align: center;
+    border: 1px solid black;
+    height: 350px;
+   
+    width: 25%;
+
+}
+.box-3{
+    content: normal;
+    border: 1px solid black;
+    height: 350px;
+    margin-right: 150px;
+    width: 25%;
+
+}
+
+.only-text{
+    justify-content: space-between;
+    display: flex;
+}
+.texta{
+    margin-left: 50px;
+}
+
+.textc{
+    margin-right: 50px;
+}
+
+
+.xyz{
+    
+        background-image: url('');
+       height: 500px;
+       width: 100%;
+            
+    }
+/* .n{
+    padding-bottom: 50px;
+    border: 3px solid red;
+} */
+
+.ganda {
+    background-color: rgb(252, 200, 97);
+    color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 25px;
+    
+    
+}
+
+
+
+.asa{
+    margin-top: 50px;
+   
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust header styles for smaller screens */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Add more media queries for other screen sizes as needed */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    background-color: black;
+   
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
